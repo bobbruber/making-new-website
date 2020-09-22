@@ -1,0 +1,39 @@
+#made myself a little questionaire in honor of the origins of python
+#my first actual progam i've made so if there's an easier way to get this done let me know. 
+#intial greeting message when you start profile creation
+print("Stop! Who would cross the web of death must answer me these questions five . .\
+\nuh three, ere the other app he see.")
+question_0=input("what is your name? ")
+if question_0.lower() == "roger":
+    print("are you a shrubber? ")
+else:
+   print("I didn't vote for you as king! ")
+question_1 = input("what is your quest? ")
+if question_1.lower() == "to find the holy grail":
+    print("Prepare to fight the french you silly english pig dog! ")
+else:
+    print("I do not recoginize that quest, are you a witch!?")
+question_2 = input("What is the Capital of Assyria? ")
+if question_2.lower() == "i dont know that":
+    print("Me neither, nevermind tis a silly question. ")
+else:
+    print("You could be right or you could be wrong, I better google the answer. ")
+question_3 = input("what is the airspeed velocity of an unladen swallow? ")
+if question_3.lower() == "what do you mean african or european swallow":
+    print("I don't know that *wahhhh i don't want to go into the gorge, it smells like cabbage!")
+else:
+    print("You must not be king with your limitied knowledge of swallows.")
+question_4 = input("what is your favorite color? ")
+if question_4.lower() == "blue":
+    print("Are you sure you dont mean yellow?")
+elif question_4.lower() == "yellow":
+    print("Are you sure you don't like blue")
+else:
+    print("Eh im colorblind anyways, I'm an old man you know.")
+question_5 = input("Where did you get that coconut? ")
+if question_5.lower() == "we found them":
+    print("eh this is a temperate zone!")
+else:
+    print("coconuts do not migrate!")
+    
+print("Welcome to playground, now have at thee! ")
